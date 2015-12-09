@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/simplehttpserver/simplehttpserver.js & open 'http://localhost:8000'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rx": "^4.0.7"
+    "rx": "^4.0.7",
+    "simplehttpserver": "0.0.5"
   }
 }
