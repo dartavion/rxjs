@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-    var URL = 'https://coxradio.bootstrap.fyre.co/bs3/v3.1/coxradio.fyre.co/377241/ZGVzaWduZXItYXBwLTE0NDc3MDI2NDc4NjU=/init';
+    var URL = 'ADD URL HERE';
     var TWITTER = 20;
     var INSTAGRAM = 19;
     function getJSON(method, url) {
